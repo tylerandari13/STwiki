@@ -62,22 +62,43 @@ using a function that actually doesn't exist.
 
 ### Classes
 
+(Anything with a ^ in front means it has yet to be implemented to the wiki.)
+
 * [AmbientSound](https://github.com/SuperTux/supertux/wiki/ScriptingAmbientSound)
+^ Background
+^ Badguy
 * [Camera](https://github.com/SuperTux/supertux/wiki/ScriptingCamera)
 * [Candle](https://github.com/SuperTux/supertux/wiki/ScriptingCandle)
+^ Clouds
+^ Custom Particles
+^ Decal
+^ Dispenser
 * [DisplayEffect](https://github.com/SuperTux/supertux/wiki/ScriptingDisplayEffect)
 * [FloatingImage](https://github.com/SuperTux/supertux/wiki/ScriptingFloatingImage)
-* [Globals](https://github.com/SuperTux/supertux/wiki/ScriptingGlobals)
+* [Globals](https://github.com/SuperTux/supertux/wiki/ScriptingGlobals) (called functions in the files)
+^ Game Object
+^ Game Object Manager
+^ Gradient
 * [Level](https://github.com/SuperTux/supertux/wiki/ScriptingLevel)
 * [LevelTime](https://github.com/SuperTux/supertux/wiki/ScriptingLevelTime)
-* [Path](https://github.com/SuperTux/supertux/wiki/ScriptingPath)
+^ Lit Object
+^ Particle System
+* [Path](https://github.com/SuperTux/supertux/wiki/ScriptingPath) (where)
 * [Platform](https://github.com/SuperTux/supertux/wiki/ScriptingPlatform)
 * [Player](https://github.com/SuperTux/supertux/wiki/ScriptingPlayer)
+^ Rain
+^ Rock (?)
 * [ScriptedObject](https://github.com/SuperTux/supertux/wiki/ScriptingScriptedObject)
 * [Sector](https://github.com/SuperTux/supertux/wiki/ScriptingSector)
-* [Sound](https://github.com/SuperTux/supertux/wiki/ScriptingSound)
+^ Spotlight
+* [Sound](https://github.com/SuperTux/supertux/wiki/ScriptingSound) (where)
 * [Text](https://github.com/SuperTux/supertux/wiki/ScriptingText)
+^ Text Array
 * [Thunderstorm](https://github.com/SuperTux/supertux/wiki/ScriptingThunderstorm)
 * [Tilemap](https://github.com/SuperTux/supertux/wiki/ScriptingTilemap)
+^ Torch
 * [Will-o-wisp](https://github.com/SuperTux/supertux/wiki/ScriptingWill-o-wisp)
 * [Wind](https://github.com/SuperTux/supertux/wiki/ScriptingWind)
+^ Worldmap
+^ Wrapper
+^ Wrapper Interface

@@ -25,6 +25,8 @@ Method                                | Explanation
 `save_state()`                        | Dumps the current state into the user's save game file.
 `load_state()`                        | Loads world state from scripting table.
 `play_music(string musicfile)`        | Plays music, e.g. “antarctica/chipdisko.music”.
+`pause_music(float fadetime)`         | Fades out music in <var>fadetime</var> seconds. The music will pick up where it left off when `resume_music` is called.
+`resume_music(float fadetime)`        | Fades in music in <var>fadetime</var> seconds.
 `stop_music(float fadetime)`          | Fades out music in <var>fadetime</var> seconds.
 `play_sound(string soundfile)`        | Plays sound, e.g “sounds/lifeup.wav”.
 `debug_collrects(bool enable)`        | Enables or disables drawing of collision rectangles.
@@ -43,10 +45,14 @@ Method                                | Explanation
 `warp(float x, float y)`              | Moves Tux <var>x</var> tiles to the right and <var>y</var> tiles to the bottom.
 `camera()`                            | Displays the current camera's coordinates. (top-left corner)
 `set_gamma(float gamma)`              | Sets gamma (brightness).
-`quit()`                              | Exits the game. (Not recommended for use in levels!)
+`quit()`                              | Exits the game. This is definitely recommended for use in levels.
 `int rand()`                          | Returns a random evenly-distributed integer between 0 and 2147483647, inclusive.
 `record_demo(string filename)`        | Records a demo to the given file.
 `play_demo(string filename)`          | Plays back a demo from the given file.
+`start_cutscene()`                    | Turns on the cutscene. (While it is on you can press `esc` to exit it.)
+`end_cutscene()`                      | Turns off the cutscene.
+`bool check_cutscene()`               | Retrns whether the cutscene is on or off.
+
 
 Constants
 ---------

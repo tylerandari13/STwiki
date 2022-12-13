@@ -31,13 +31,17 @@ Method                        | Explanation
 `do_duck()`                   | Makes Tux duck, if possible.
 `do_standup()`                | Makes Tux stand up, if possible.
 `do_backflip()`               | Makes Tux backflip, if possible.
-`do_jump()`                   | Makes Tux jump, if possible.
+`do_jump(float yspeed)`       | Makes Tux jump at <var>yspeed</var>, if possible.
+`do_kick()`                   | Makes Tux kick, if possible.
 `trigger_sequence(string sequence_name)` | Orders the current GameSession to start a sequence. One of “stoptux”, “endsequence”, or “fireworks”.
 `use_scripting_controller(bool use_or_release)` | Uses a scriptable controller for all user input (or restores controls).
 `do_scripting_controller(string control, bool pressed)` | Instructs the scriptable controller to press or release a button. <var>control</var> can be “left”, “right”, “up”, “down”, “jump”, “action”, “start”, “escape”, “menu-select”, “menu-select-space”, “menu-back”, “remove”, “cheat-menu”, “debug-menu”, “console”, “peek-left”, “peek-right”, “peek-up”, or “peek-down”,
 `float get_velocity_x()`      | Return Tux’s velocity in x direction.
 `float get_velocity_y()`      | Return Tux’s velocity in y direction.
 `bool has_grabbed(string name)` | Return `true` if Tux carries a <var>name</var> object.
+`float get_x()`               | Returns Tux's X position.
+`float get_y()`               | Returns Tux's Y position. 
+`set_pos(float x, float y)`   | Puts Tux at the cooridnates specified. (they are measured in pixels, not tiles)
 
 Constants
 ---------

@@ -44,7 +44,7 @@ Method                                 | Explanation
 `set_action(string animation)`         | Activates the sprite's action specified in <var>animation</var>.
 `string get_action()`                  | Returns the name of the sprite's current action.
 `move(float x, float y)`               | Moves the object by <var>x</var> units to the right and <var>y</var> down relative to its current position.
-`set_pos(float x, float y)`            | Basically identical to `move`, except its relativity to the sector origin.
+`set_pos(float x, float y)`            | Basically identical to `move`, except its relative to the sector origin.
 `float get_pos_x()`                    | Returns the X coordinate of the object's position.
 `float get_pos_y()`                    | Returns the Y coordinate of the object's position.
 `set_velocity(float x, float y)`       | Makes the object move in a certain <var>x</var> and <var>y</var> direction (with a certain speed).

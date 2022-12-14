@@ -1,7 +1,7 @@
 Summary
 -------
 
-A badguy that was given a name can be controlled by scripts.
+(to be added soon)
 
 Instance
 --------
@@ -12,12 +12,20 @@ A `Badguy` is instantiated by placing a definition inside a level. It can then b
 
 In the level file:
 
-    (snowball
-      ;the name and contents of the enemy may be different
-      (name "Jeff")
-      (direction "left")
-      (x 640)
-      (y 480)
+    (particles-custom
+      (texture
+        (surface "/images/engine/editor/sparkle.png")
+        (color_r 1)
+        (color_g 1)
+        (color_b 1)
+        (color_a 1)
+        (likeliness 1)
+        (scale_x 1)
+        (scale_y 1)
+      )
+      (main-texture "/images/engine/editor/sparkle.png")
+      (birth-time 0)
+      (death-time 0)
     )
 In a script:
 

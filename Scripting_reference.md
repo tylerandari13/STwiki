@@ -65,11 +65,11 @@ using a function that actually doesn't exist.
 (Anything with a ^ in front means it has yet to be implemented to the wiki.)
 
 * [AmbientSound](https://github.com/SuperTux/supertux/wiki/ScriptingAmbientSound)
-^ Background
-^ Badguy
+* [Background](https://github.com/SuperTux/supertux/wiki/ScriptingBackground)
+* [Badguy](https://github.com/SuperTux/supertux/wiki/ScriptingBadguy)
 * [Camera](https://github.com/SuperTux/supertux/wiki/ScriptingCamera)
 * [Candle](https://github.com/SuperTux/supertux/wiki/ScriptingCandle)
-^ Clouds
+* [Clouds](https://github.com/SuperTux/supertux/wiki/ScriptingClouds)
 ^ Custom Particles
 ^ Decal
 ^ Dispenser
@@ -83,7 +83,7 @@ using a function that actually doesn't exist.
 * [LevelTime](https://github.com/SuperTux/supertux/wiki/ScriptingLevelTime)
 ^ Lit Object
 ^ Particle System
-* [Path](https://github.com/SuperTux/supertux/wiki/ScriptingPath) (where)
+* [Path](https://github.com/SuperTux/supertux/wiki/ScriptingPath)
 * [Platform](https://github.com/SuperTux/supertux/wiki/ScriptingPlatform)
 * [Player](https://github.com/SuperTux/supertux/wiki/ScriptingPlayer)
 ^ Rain
@@ -91,7 +91,7 @@ using a function that actually doesn't exist.
 * [ScriptedObject](https://github.com/SuperTux/supertux/wiki/ScriptingScriptedObject)
 * [Sector](https://github.com/SuperTux/supertux/wiki/ScriptingSector)
 ^ Spotlight
-* [Sound](https://github.com/SuperTux/supertux/wiki/ScriptingSound) (where)
+* [Sound](https://github.com/SuperTux/supertux/wiki/ScriptingSound)
 * [Text](https://github.com/SuperTux/supertux/wiki/ScriptingText)
 ^ Text Array
 * [Thunderstorm](https://github.com/SuperTux/supertux/wiki/ScriptingThunderstorm)

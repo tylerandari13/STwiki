@@ -1,7 +1,7 @@
 Summary
 -------
 
-An background that was given a name can be controlled by scripts.
+A background that was given a name can be controlled by scripts.
 
 Instance
 --------

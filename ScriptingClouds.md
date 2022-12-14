@@ -34,7 +34,7 @@ Methods
 | `set_enabled(bool enable)`  | Turns on or off the clouds.             |
 | `bool get_enabled`          | Returns whether the clouds are visible. |
 | `fade_speed(float speed, float time)` | Smoothly changes the speed of the clouds. |
-| `fade_amount(int amount, float time)` | Smoothly changes the amount of clouds. |
+| `fade_amount(int amount, float time, float time_between)` | Smoothly changes the amount of clouds. |
 | `set_amount(int amount, float time)` | Smoothly changes the amount of clouds? |
 
 Constants
